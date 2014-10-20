@@ -1,0 +1,23 @@
+##########################################################
+# This file is part of Rapsodia released under the LGPL. #
+# The full COPYRIGHT notice can be found in the top      #
+# level directory of the Rapsodia distribution           #
+##########################################################
+default: 
+	cd hotF90 && $(MAKE) 
+	cd hotCpp && $(MAKE) 
+
+check: default
+	cd Generator && $(MAKE) $@	
+	cd Regression && $(MAKE) $@
+
+clean: 
+	cd Generator && $(MAKE) $@	
+	cd hotF90 && $(MAKE) $@	
+	cd hotCpp && $(MAKE) $@	
+	cd Regression && $(MAKE) $@
+
+distclean: clean
+	rm -f Make*.mk setenv.* config.log
+
+.PHONY: default check clean distclean

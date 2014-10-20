@@ -1,0 +1,6 @@
+C++ test case for 
+f(x)= product sin(x_i)
+for n=3, o=3 which also includes a code to compute 
+tensor entries explicitly as a regression test. 
+It shows the discrepancies between the interpolated and 
+explicitly computed entries. 
