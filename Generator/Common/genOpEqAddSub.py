@@ -51,7 +51,7 @@ def genEqAddSub(sourceList,helper):
     aSource=generateEqDivAPBody(helper)
     aSource.cppOnly=True
     sourceList.append(aSource)
-    aSource=helper.generateCompoundIntrinsic('eqdiv','/=',names.Fixed.pN+'eqdiv',['RAdiv'])
+    aSource=helper.generateCompoundIntrinsic('eqdiv','/=',names.Fixed.pN+'eqdiv',[names.Fixed.pN+'div'])
     aSource.cppOnly=True
     sourceList.append(aSource)
 
