@@ -3,6 +3,9 @@
 // The full COPYRIGHT notice can be found in the top      *
 // level directory of the Rapsodia distribution           *
 //*********************************************************
+#ifndef _RAPSODIA_MATRIX_
+#define _RAPSODIA_MATRIX_
+
 #include <vector>
 
 // very simple matrix template
@@ -31,3 +34,5 @@ private:
   unsigned int myC;
 
 };
+
+#endif  // _RAPSODIA_MATRIX_
