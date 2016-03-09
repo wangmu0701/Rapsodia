@@ -19,3 +19,5 @@ HigherOrderTensor.hpp:MultiIndex.hpp
 HigherOrderTensor.cpp:HigherOrderTensor.hpp
 MultiIndex.cpp:MultiIndex.hpp
 MultiIndex.hpp:Matrix.hpp
+HessianIndex.cpp:HessianIndex.hpp
+HessianIndex.hpp:HessianIndex.hpp

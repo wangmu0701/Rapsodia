@@ -486,7 +486,7 @@ def main():
 
         ourMakeDefsHandle.write('''
 export HOTF90NAMES= multiIndexUtil higherOrderTensorUtil
-export HOTCPPNAMES= MultiIndex HigherOrderTensor
+export HOTCPPNAMES= MultiIndex HigherOrderTensor HessianIndex
 export RA_CXX_LIBS=-lRapsodia
 export RA_F90_LIBS=-lRapsodia
 ''')
